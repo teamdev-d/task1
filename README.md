@@ -23,11 +23,12 @@ git-workshopの１つ目の課題
 
 ### スタート
 
-<img width="1399" alt="スクリーンショット 2023-03-07 1 53 43" src="https://user-images.githubusercontent.com/91725975/223182940-3975e705-79b1-4431-8b93-257d049115b6.png">
+<img width="1440" alt="スクリーンショット 2023-03-07 2 14 39" src="https://user-images.githubusercontent.com/91725975/223183271-8409cbd3-5eb0-469f-8227-436f5bb9bf94.png">
 
 ### ゴール
 
-<img width="977" alt="スクリーンショット 2023-03-07 1 52 29" src="https://user-images.githubusercontent.com/91725975/223183005-0d61fc7b-1130-4973-9dbd-8543cc6ad88f.png">
+<img width="1440" alt="スクリーンショット 2023-03-07 2 14 30" src="https://user-images.githubusercontent.com/91725975/223183351-b001ba55-5b61-47a5-9293-100f5b94a8ea.png">
+
 
 ---
 
