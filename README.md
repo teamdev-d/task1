@@ -21,6 +21,8 @@ git-workshopの１つ目の課題
 
 ## スタートとゴール
 
+概要にある作業を全員が行い下記の時成果物を作成することが目標。
+
 ### スタート
 
 <img width="1440" alt="スクリーンショット 2023-03-07 2 14 39" src="https://user-images.githubusercontent.com/91725975/223183271-8409cbd3-5eb0-469f-8227-436f5bb9bf94.png">
