@@ -19,6 +19,18 @@ git-workshopの１つ目の課題
 
 ---
 
+## スタートとゴール
+
+### スタート
+
+<img width="1399" alt="スクリーンショット 2023-03-07 1 53 43" src="https://user-images.githubusercontent.com/91725975/223182940-3975e705-79b1-4431-8b93-257d049115b6.png">
+
+### ゴール
+
+<img width="977" alt="スクリーンショット 2023-03-07 1 52 29" src="https://user-images.githubusercontent.com/91725975/223183005-0d61fc7b-1130-4973-9dbd-8543cc6ad88f.png">
+
+---
+
 ## 1. Issueを作って自分のタスクを登録する
 
 Isuueとは開発メンバー間で共有が必要な事項をスレッド形式で立てられる機能です。
