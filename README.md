@@ -4,7 +4,7 @@
 
 初心者チーム開発で使用するgitをハンズオンで解説します、主な流れとしては:
 1. Issueを作って自分のタスクを登録する
-2. リモートリポジトリとローカルリポジトリに差異があれば、developブランチにて```git pull```を実行
+2. developブランチにて```git pull```を実行
 3. ```git switch -c ブランチ名```で追加機能用のブランチを作成、移動
 4. 追加機能作成
 5. ```git add .```でアップデートしたファイルをgitに指示する（ステージング）
@@ -35,15 +35,32 @@
 
 ### 2.1 - Issueを作って自分のタスクを登録する
 
+### 2.1.1 - Isuueとは
 Isuueとは開発メンバー間で共有が必要な事項をスレッド形式で立てられる機能です。
 
 <img width="1439" alt="スクリーンショット 2023-03-07 1 39 37" src="https://user-images.githubusercontent.com/91725975/223174776-b120fe05-cdb1-4ea8-8c2e-78e7a0ba8c77.png">
 
 Issueの詳しい説明はコチラ（ドキュメントのリンク）
+参考リンク
+- [Issueの作成方法](https://docs.github.com/ja/issues/tracking-your-work-with-issues/creating-an-issue)
+- [Issueで課題管理Assignee, Label, Project機能](https://style.potepan.com/articles/31077.html)
+- [Markdown記法の書き方1](https://qiita.com/tbpgr/items/989c6badefff69377da7)
+- [Markdown記法の書き方2](https://www.markdownguide.org/basic-syntax/)
 
-(以下作成方法のスクショ)
+### 2.1.2 - 手順
 
-### 2.2 - リモートリポジトリとローカルリポジトリに差異があれば、developブランチにて```git pull```を実行
+### 作成の手順　　
+
+
+https://user-images.githubusercontent.com/91725975/223501847-d34df101-0302-4abf-96b4-3c710594229d.mov
+
+### closeの手順
+
+https://user-images.githubusercontent.com/91725975/223501285-1902a42e-7004-4429-8cb4-8f3883937899.mov
+
+
+
+### 2.2 - developブランチにて```git pull```を実行
 
 (手順を示すためにvscodeのターミナルのスクショと、差異をわかりやすく見せるためにindex.htmlのブラウザのスクショを載せる)
 
