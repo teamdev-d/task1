@@ -33,6 +33,8 @@
 
 ## 2. 開発の流れ
 
+### 重要:ここから本格的な作業に移ります、以下の具体例では、Red Teamが作業を終え、Blue Teamが作業を開始することを想定しています。
+
 ## 2.1 - Issueを作って自分のタスクを登録する
 
 ### 2.1.1 - Isuueとは
@@ -61,12 +63,11 @@ https://user-images.githubusercontent.com/91725975/223501285-1902a42e-7004-4429-
 
 ## 2.2 - developブランチにて```git pull```を実行
 
-(手順を示すためにvscodeのターミナルのスクショと、差異をわかりやすく見せるためにindex.htmlのブラウザのスクショを載せる)
 ### 2.2.1 - git pull の説明と具体例
 git pullとは、リモートリポジトリから最新の状態をローカルリポジトリに反映するコマンドです。
 
 例えば、Red Teamが「Hello Red Team」をindex.htmlに追加し、developブランチにマージしたとします。
-そうするとRed Teamとそれ以外のチームで差異が出ます。
+そうするとRed Teamとそれ以外のチームで差異が生じます。
 
 #### Red Teamのブラウザ
 <img width="1440" alt="Hello Rec and Red" src="https://user-images.githubusercontent.com/91725975/223505886-1461c4c5-13a1-415d-a431-cf853787a927.png">
@@ -76,24 +77,25 @@ git pullとは、リモートリポジトリから最新の状態をローカル
 
 ### 2.2.2 - 手順
 
-developブランチにいない場合```git switch develop```でdevelopブランチに戻る必要があります。
+※注意developブランチにいない場合```git switch develop```でdevelopブランチに戻る必要があります。
 
 https://user-images.githubusercontent.com/91725975/223508120-1ffacf47-33d5-4c71-ac80-662c43547d94.mov
 
-
 ## 2.3 - ```git switch -c ブランチ名```で追加機能用のブランチを作成、移動
 
-(手順を示すためにvscodeのターミナルのスクショを載せる)
+https://user-images.githubusercontent.com/91725975/223513350-8869b055-f773-4a9f-98d1-a5dc3bde2c8b.mov
 
 ## 2.4 - 追加機能作成
 
+https://user-images.githubusercontent.com/91725975/223513836-84a2952b-1295-40c7-9fe7-e69df6847909.mov
+
 ## 2.5 - ```git add .```でアップデートしたファイルをgitに指示する（ステージング）
 
-(手順を示すためにvscodeのターミナルのスクショを載せる)
+https://user-images.githubusercontent.com/91725975/223514736-1606586a-6f48-4603-a2a2-eed6716aa4c8.mov
 
 ## 2.6 - ```git commit -m "変更内容に関するメッセージ"```でステージングしたファイルの内容をgitに指示する
 
-(手順を示すためにvscodeのターミナルのスクショを載せる)
+https://user-images.githubusercontent.com/91725975/223515739-5f4c8bf1-a412-4557-b9d8-dea16035108f.mov
 
 ## 2.7 - ```git push origin ブランチ名```でリモートリポジトリへ一連の作業内容を保存
 
