@@ -33,7 +33,7 @@
 
 ## 2. 開発の流れ
 
-### 2.1 - Issueを作って自分のタスクを登録する
+## 2.1 - Issueを作って自分のタスクを登録する
 
 ### 2.1.1 - Isuueとは
 Isuueとは開発メンバー間で共有が必要な事項をスレッド形式で立てられる機能です。
@@ -51,7 +51,6 @@ Issueの詳しい説明はコチラ（ドキュメントのリンク）
 
 ### 作成の手順　　
 
-
 https://user-images.githubusercontent.com/91725975/223501847-d34df101-0302-4abf-96b4-3c710594229d.mov
 
 ### closeの手順
@@ -60,10 +59,22 @@ https://user-images.githubusercontent.com/91725975/223501285-1902a42e-7004-4429-
 
 
 
-### 2.2 - developブランチにて```git pull```を実行
+## 2.2 - developブランチにて```git pull```を実行
 
 (手順を示すためにvscodeのターミナルのスクショと、差異をわかりやすく見せるためにindex.htmlのブラウザのスクショを載せる)
+### 2.2.1 - git pull の説明と具体例
+git pullとは、リモートリポジトリから最新の状態をローカルリポジトリに反映するコマンドです。
 
+例えば、Red Teamが「Hello Red Team」をindex.htmlに追加し、developブランチにマージしたとします。
+そうするとRed Teamとそれ以外のチームで差異が出ます。
+
+#### Red Teamのブラウザ
+<img width="1440" alt="Hello Rec and Red" src="https://user-images.githubusercontent.com/91725975/223505886-1461c4c5-13a1-415d-a431-cf853787a927.png">
+
+#### それ以外のチームのブラウザ
+<img width="1440" alt="Hello Recursion" src="https://user-images.githubusercontent.com/91725975/223505998-9767e7f9-c1c0-45ca-92fd-a99aeb29d0c6.png">
+
+### 2.2.2 - 手順
 ### 2.3 - ```git switch -c ブランチ名```で追加機能用のブランチを作成、移動
 
 (手順を示すためにvscodeのターミナルのスクショを載せる)
