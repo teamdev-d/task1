@@ -7,7 +7,7 @@
 2. developブランチにて```git pull```を実行
 3. ```git switch -c ブランチ名```で追加機能用のブランチを作成、移動
 4. 追加機能作成
-5. ```git add .```でアップデートしたファイルをgitに指示する（ステージング）
+5. ```git add .```で修正したファイルをgitに指示する（ステージング）
 6. ```git commit -m "変更内容に関するメッセージ"```でステージングしたファイルの内容をgitに指示する
 7. ```git push origin ブランチ名```でリモートリポジトリへ一連の作業内容を保存
 8. developブランチへプルリクエストを作成する
@@ -63,7 +63,7 @@ https://user-images.githubusercontent.com/91725975/223501285-1902a42e-7004-4429-
 
 ## 2.2 - developブランチにて```git pull```を実行
 
-### 2.2.1 - git pull の説明と具体例
+### 2.2.1 - ```git pull``` の説明と具体例
 git pullとは、リモートリポジトリから最新の状態をローカルリポジトリに反映するコマンドです。
 
 例えば、Red Teamが「Hello Red Team」をindex.htmlに追加し、developブランチにマージしたとします。
@@ -83,13 +83,27 @@ https://user-images.githubusercontent.com/91725975/223508120-1ffacf47-33d5-4c71-
 
 ## 2.3 - ```git switch -c ブランチ名```で追加機能用のブランチを作成、移動
 
+### 2.3.1 - ```git switch -c ブランチ名```の説明
+```-c```はgitのコマンドに用意されたオプションであり、createのcです。このオプションでブランチの作成を行っています。
+```
+git branch <new-branch>
+git switch <new-branch>
+```
+上記の作業を一回のコマンドで行っています。
+
+### 2.3.2 - 手順
+作業ブランチの名前は具体的な作業名にするのが通例です。
+Blue Teamがindex.htmlに修正を加えるとします。
+
 https://user-images.githubusercontent.com/91725975/223513350-8869b055-f773-4a9f-98d1-a5dc3bde2c8b.mov
 
 ## 2.4 - 追加機能作成
+### 2.4.1 - 手順
+Blue Teamがindex.htmlに挨拶を加えるとします。
 
 https://user-images.githubusercontent.com/91725975/223513836-84a2952b-1295-40c7-9fe7-e69df6847909.mov
 
-## 2.5 - ```git add .```でアップデートしたファイルをgitに指示する（ステージング）
+## 2.5 - ```git add .```で修正したファイルをgitに指示する（ステージング）
 
 https://user-images.githubusercontent.com/91725975/223514736-1606586a-6f48-4603-a2a2-eed6716aa4c8.mov
 
