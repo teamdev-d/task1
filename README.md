@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/91725975/223797492-9715cbbf-d8cb-4d5e-
 
 ## 1. スタートとゴール
 
-メンバー全員がindex.htmlに文章を追加し、下記のような成果物を作成することが目標。
+メンバー全員がリモーリポジトリからローカル環境のindex.htmlに文章を追加し、下記のような成果物を作成することが目標。
 
 ### スタート
 
@@ -44,6 +44,7 @@ https://user-images.githubusercontent.com/91725975/223797492-9715cbbf-d8cb-4d5e-
 9. プルリクエストに対するレビューをしてもらう
 10. developブランチへマージする
 
+![mermaid-diagram-2023-03-09-174227](https://user-images.githubusercontent.com/91725975/223971496-83ac6f08-1125-4a78-bd2c-2cad962bc5cc.png)
 
 <!-- ### 重要:ここから本格的な作業に移ります、以下の具体例では、Red Teamが作業を終え、Blue Teamが作業を開始することを想定しています。 -->
 
@@ -51,6 +52,10 @@ https://user-images.githubusercontent.com/91725975/223797492-9715cbbf-d8cb-4d5e-
 
 ### 2.1.1 - Isuueとは
 Isuueとは開発メンバー間で共有が必要な事項をスレッド形式で立てられる機能です。
+
+各Issueには、Issueとその重大度を識別するのに役立つタイトル、説明、およびラベルを付けることができます。 GitではIssueにコメントを追加することもできます。これを使用して、考えられる解決策について議論したり、追加情報を提供したりできます。
+
+問題が解決したら、それをクローズして、問題を修正するために加えた変更をリポジトリにコミットできます。
 
 <img width="1439" alt="スクリーンショット 2023-03-07 1 39 37" src="https://user-images.githubusercontent.com/91725975/223174776-b120fe05-cdb1-4ea8-8c2e-78e7a0ba8c77.png">
 
