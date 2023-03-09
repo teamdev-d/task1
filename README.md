@@ -169,12 +169,29 @@ git pushコマンドは、Gitリポジトリに加えられたローカルの変
 プルリクエスト(PR)は、作業で行った変更がリポジトリのメインブランチにマージされる前に、開発者がプロジェクトの変更を提案し、フィードバックを取得できるようにするGitの機能です。
 
 ### 2.8.2 - 手順
+
+①画面中央、compare pullrequestをクリック
+<img width="1011" alt="スクリーンショット 2023-03-10 2 10 44" src="https://user-images.githubusercontent.com/91725975/224103236-b8e6fff9-3848-4262-96fc-048f0dedd949.png">
+
+②画面左、reviewerを設定
+<img width="1438" alt="スクリーンショット 2023-03-10 1 45 39" src="https://user-images.githubusercontent.com/91725975/224102781-b13704e3-dbeb-453d-bf54-3035dd7ba664.png">
+
+③画面左、assigneesを設定
+<img width="1438" alt="スクリーンショット 2023-03-10 1 45 59" src="https://user-images.githubusercontent.com/91725975/224102814-af10b5d0-2450-43de-9fc3-9542b3e07276.png">
+
 ## 2.9 - プルリクエストに対するレビューをしてもらう
 
 ### 2.9.1 - レビューの説明
 レビューとはプルリクエストに対してチャットベースで行うことができるGitの機能です。 チームメンバーは、変更を確認し、問題を共有し、リモートリポジトリに統合される前に問題を改善できます。
 
 ## 2.10 - developブランチへマージする
+
+### 2.10.1 -　手順
+
+<img width="1438" alt="スクリーンショット 2023-03-10 1 48 56" src="https://user-images.githubusercontent.com/91725975/224107673-39882603-1786-4d4f-8c04-83765c90aa91.png">
+
+<img width="1438" alt="スクリーンショット 2023-03-10 1 49 49" src="https://user-images.githubusercontent.com/91725975/224107776-37d8848f-eab5-4143-b0eb-1d5367b29d5a.png">
+
 
 
 
