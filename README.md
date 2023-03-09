@@ -96,7 +96,7 @@ git pullとは、リモートリポジトリから最新の状態をローカル
 
 ※注意developブランチにいない場合```git switch develop```でdevelopブランチに戻る必要があります。
 
-https://user-images.githubusercontent.com/91725975/223508120-1ffacf47-33d5-4c71-ac80-662c43547d94.mov
+<img width="955" alt="スクリーンショット 2023-03-09 20 48 40" src="https://user-images.githubusercontent.com/91725975/224014976-66893aec-237b-444f-bf65-49c9898f4566.png">
 
 ## 2.3 - ```git switch -c ブランチ名```で追加機能用のブランチを作成、移動
 
@@ -112,7 +112,7 @@ git switch <new-branch>
 作業ブランチの名前は具体的な作業名にするのが通例です。
 Blue Teamがindex.htmlに修正を加えるとします。
 
-https://user-images.githubusercontent.com/91725975/223513350-8869b055-f773-4a9f-98d1-a5dc3bde2c8b.mov
+<img width="955" alt="スクリーンショット 2023-03-09 20 50 48" src="https://user-images.githubusercontent.com/91725975/224014919-46d0ece7-43e7-4ba1-90c8-144f8625708e.png">
 
 ## 2.4 - 追加機能作成
 ### 2.4.1 - 手順
@@ -134,7 +134,8 @@ git addコマンドは、Gitのステージングエリアに変更を追加す�
 
 ```git add .```を使います。
 
-https://user-images.githubusercontent.com/91725975/223514736-1606586a-6f48-4603-a2a2-eed6716aa4c8.mov
+<img width="955" alt="スクリーンショット 2023-03-09 20 53 31" src="https://user-images.githubusercontent.com/91725975/224015481-fdc8cc4f-4a91-4d4b-84b4-21cbd6a6ef70.png">
+
 
 ## 2.6 - ```git commit -m "変更内容に関するメッセージ"```でステージングしたファイルの内容をgitに指示する
 
@@ -146,7 +147,8 @@ git commitコマンドは、ローカルリポジトリへの変更を記録す�
 
 ### 2.6.2 - 手順
 
-https://user-images.githubusercontent.com/91725975/223515739-5f4c8bf1-a412-4557-b9d8-dea16035108f.mov
+<img width="955" alt="スクリーンショット 2023-03-09 20 39 43" src="https://user-images.githubusercontent.com/91725975/224012706-32664455-7434-476f-8e69-576239bbaf3e.png">
+
 
 ## 2.7 - ```git push origin ブランチ名```でリモートリポジトリへ一連の作業内容を保存
 
@@ -159,7 +161,7 @@ git pushコマンドは、Gitリポジトリに加えられたローカルの変
 
 ### 2.7.2 - 手順
 
-https://user-images.githubusercontent.com/91725975/223714422-db6b84e7-6911-456d-8b2f-f4ec7bf905e2.mov
+<img width="955" alt="スクリーンショット 2023-03-09 20 44 21" src="https://user-images.githubusercontent.com/91725975/224013542-c9736cc7-77ea-492c-8f81-23d7a2714dd2.png">
 
 ## 2.8 - developブランチへプルリクエストを作成する
 
