@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/91725975/223797492-9715cbbf-d8cb-4d5e-
 
 ## 1. スタートとゴール
 
-メンバー全員がリモーリポジトリからローカル環境のindex.htmlに文章を追加し、下記のような成果物を作成することが目標。
+メンバー全員がリモーリポジトリからローカル環境のindex.htmlに文章を追加し、下記のような成果物を作成することとIssueやpull requestなどのgit hubの機能、git add .などのコマンドを覚えることが目標。
 
 ### スタート
 
