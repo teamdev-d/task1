@@ -188,8 +188,10 @@ git pushコマンドは、Gitリポジトリに加えられたローカルの変
 
 ### 2.10.1 -　手順
 
+①緑色の枠で囲まれた範囲にある、merge pull requestをクリック。
 <img width="1438" alt="スクリーンショット 2023-03-10 1 48 56" src="https://user-images.githubusercontent.com/91725975/224107673-39882603-1786-4d4f-8c04-83765c90aa91.png">
 
+②使用したブランチをリモートリポジトリ上から削除する。
 <img width="1438" alt="スクリーンショット 2023-03-10 1 49 49" src="https://user-images.githubusercontent.com/91725975/224107776-37d8848f-eab5-4143-b0eb-1d5367b29d5a.png">
 
 
