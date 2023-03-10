@@ -8,7 +8,7 @@
 
 ※動画で使っているリポジトリは一例です。チームリーダーでは無い方はチームリーダーが作成したリポジトリを使用してください。
 
-チームリーダー向けイベントではコチラのリポジトリを使います。→https://github.com/recursion-git-work-shop/task1
+チームリーダー向けイベントではコチラのリポジトリを使います。→```https://github.com/recursion-git-work-shop/task1```
 
 1. リポジトリのURLを取得
 2. vscodeの「Gitリポジトリのクローン」を使用
