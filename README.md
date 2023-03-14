@@ -10,6 +10,8 @@
 
 チームリーダー向けイベントではコチラのリポジトリを使います。→```https://github.com/recursion-git-work-shop/task1```
 
+### 手順
+
 1. リポジトリのURLを取得
 2. vscodeの「Gitリポジトリのクローン」を使用
 
