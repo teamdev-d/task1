@@ -17,4 +17,4 @@
 - git commit -m
 - git push origin 
 - [ ] チームで完成させる成果物を決定する
-- [ ] デプロイ
+
