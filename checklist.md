@@ -16,5 +16,5 @@
 - git add .
 - git commit -m
 - git push origin 
-- [ ] チームで完成させる成果物を決定する
+- [x] チームで完成させる成果物を決定する
 
